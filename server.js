@@ -14,7 +14,8 @@ const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUI = require("swagger-ui-express");
 const bodyParser = require("body-parser");
 // const nodemailer = require("nodemailer");
-dotenv.config({ path: "./config/config.env" });
+// dotenv.config({ path: "./config/config.env" });
+dotenv.config({path: './.env'})
 
 connectDB();
 const cors = require("cors");
